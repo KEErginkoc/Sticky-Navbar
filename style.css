@@ -1,5 +1,5 @@
 body{
-    margin: 0 0;
+    margin: 0;
 }
 
 .top-container{
@@ -40,7 +40,8 @@ h1{
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 4px 8px b;
+    box-shadow: 0 4px 8px black;
+    transition: background-color 0.4s;
 }
 
 .navbar ul{
@@ -59,3 +60,10 @@ h1{
     color:red;
 }
 
+.navbar.active {
+    background-color: black;
+  }
+  
+  .navbar.active ul li a {
+    color: white;
+  }
